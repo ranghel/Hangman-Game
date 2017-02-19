@@ -1,0 +1,133 @@
+body {
+   	height: 100%;
+    background-color: lightgray;
+}
+
+
+#masthead {
+	background: gray;
+	margin: 0 0 30px;
+	color: #fff;
+	overflow: auto;
+	border-bottom: 3px solid orange;
+	width: 100%;
+}
+
+#hangman {
+	align-content: center;
+}
+
+
+#instructions {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+h2 {
+	text-align: center;
+	background-color: orange;
+	width: 300px;
+	height: 80px;
+	padding-top: 20px;
+	border: 2px solid black;
+}
+
+
+
+#score {
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+#livesleft {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+#attempts {
+	text-align: center;
+	font-weight: bolder;
+}
+
+#lives {
+	font-size: 20px;
+	color: red;
+}
+
+#dashes {
+	background-color: orange;
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+	border: 2px solid black;
+	line-height: 40px;
+	padding: 1em;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.panel .panel-body {
+ 
+    background-color: orange;
+    padding: 30px;
+}
+
+.panel {
+    border: 3px solid black;
+}
+
+#message-win {
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 35px;
+	font-weight: bold;
+	color: green;
+}
+
+#message-loss {
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+}
+
+#loadnew {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+
+}
+
+.liActive,
+.liDisabled {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 30px;
+    cursor: pointer;
+    color: black;
+    margin: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    
+
+}
+
+
+.liDisabled {
+    background-color: gray;
+}
+
+
+
+
+
+	
